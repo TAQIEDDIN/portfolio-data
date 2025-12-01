@@ -147,7 +147,7 @@ export default function Home() {
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 dark:from-gray-600/20 to-transparent -z-10 blur-xl" />
              <Image
                 src="/images/Poort.png"
-                alt="mmmmmmmmmmmmmmmmmmm"
+                alt="Taqi eddine El mamouni"
                 width={400}
                 height={400}
                 className="object-cover rounded-full border-[6px] border-background dark:border-black shadow-lg"
