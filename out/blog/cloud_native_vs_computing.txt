@@ -1,0 +1,156 @@
+1:HL["/_next/static/css/584952a0df3c54c2.css","style",{"crossOrigin":""}]
+0:["XxQEJsTJ2qT1wceXWBBBb",[[["",{"children":["blog",{"children":[["slug","cloud_native_vs_computing","d"],{"children":["__PAGE__?{\"slug\":\"cloud_native_vs_computing\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/584952a0df3c54c2.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:I[1815,["430","static/chunks/430-c78dd4f9f63b3b37.js","656","static/chunks/656-57ce34e7bfc36248.js","396","static/chunks/396-1cd3861065982629.js","185","static/chunks/app/layout-6d470cd35391b1f6.js"],"ThemeProvider"]
+5:I[25587,["430","static/chunks/430-c78dd4f9f63b3b37.js","656","static/chunks/656-57ce34e7bfc36248.js","396","static/chunks/396-1cd3861065982629.js","185","static/chunks/app/layout-6d470cd35391b1f6.js"],"Navbar"]
+6:"$Sreact.suspense"
+7:I[56954,[],""]
+8:I[7264,[],""]
+b:I[89817,["430","static/chunks/430-c78dd4f9f63b3b37.js","656","static/chunks/656-57ce34e7bfc36248.js","396","static/chunks/396-1cd3861065982629.js","185","static/chunks/app/layout-6d470cd35391b1f6.js"],"Analytics"]
+c:I[42941,["430","static/chunks/430-c78dd4f9f63b3b37.js","656","static/chunks/656-57ce34e7bfc36248.js","396","static/chunks/396-1cd3861065982629.js","185","static/chunks/app/layout-6d470cd35391b1f6.js"],"Footer"]
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Anass El Hannaoui | Cloud & AI Enthusiast"}],["$","meta","2",{"name":"description","content":"Computer science student passionate about Cloud, DevOps, and AI. Building skills through real projects in machine learning, scalable systems, and full-stack development."}],["$","link","3",{"rel":"author","href":"https://aelhannaoui-portfolio.vercel.app"}],["$","meta","4",{"name":"author","content":"Anass El Hannaoui"}],["$","meta","5",{"name":"keywords","content":"Cloud Computing,DevOps Automation,Machine Learning,AI Engineer,Full Stack Developer,Docker,Kubernetes,Spring Boot,Next.js Portfolio,Anass El Hannaoui"}],["$","meta","6",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","7",{"name":"creator","content":"Anass El Hannaoui"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","10",{"rel":"canonical","href":"https://aelhannaoui-portfolio.vercel.app"}],["$","meta","11",{"property":"og:title","content":"Anass El Hannaoui | Cloud & AI Engineer"}],["$","meta","12",{"property":"og:description","content":"Cloud & AI enthusiast exploring DevOps, scalable systems, and ML projects."}],["$","meta","13",{"property":"og:url","content":"https://aelhannaoui-portfolio.vercel.app"}],["$","meta","14",{"property":"og:site_name","content":"Anass El Hannaoui"}],["$","meta","15",{"property":"og:locale","content":"en_US"}],["$","meta","16",{"property":"og:image","content":"http://localhost:3000/og-image.webp"}],["$","meta","17",{"property":"og:image:width","content":"1200"}],["$","meta","18",{"property":"og:image:height","content":"630"}],["$","meta","19",{"property":"og:image:alt","content":"Anass El Hannaoui Portfolio"}],["$","meta","20",{"property":"og:image:type","content":"image/webp"}],["$","meta","21",{"property":"og:type","content":"website"}],["$","meta","22",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","23",{"name":"twitter:creator","content":"@yourtwitterhandle"}],["$","meta","24",{"name":"twitter:title","content":"Anass El Hannaoui | Cloud & AI Enthusiast"}],["$","meta","25",{"name":"twitter:description","content":"Cloud & AI enthusiast exploring DevOps, scalable systems, and ML projects."}],["$","meta","26",{"name":"twitter:image","content":"http://localhost:3000/og-image.webp"}],["$","link","27",{"rel":"shortcut icon","href":"/icons/favicon.ico"}],["$","link","28",{"rel":"icon","href":"/icons/logo.svg"}],["$","link","29",{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png"}]]
+2:[null,["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"scroll-smooth motion-reduce:scroll-auto","children":[["$","head",null,{"children":["$","link",null,{"rel":"preload","href":"/fonts/inter-latin.woff2","as":"font","type":"font/woff2","crossOrigin":"anonymous"}]}],["$","body",null,{"className":"__className_d65c78 antialiased","children":["$","$L4",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","a",null,{"href":"#main-content","className":"absolute left-0 top-0 z-50 p-2 text-foreground bg-background opacity-0 focus:opacity-100 focus:outline-none","children":"Skip to content"}],["$","header",null,{"role":"banner","children":["$","$L5",null,{}]}],["$","$6",null,{"fallback":["$","div",null,{"className":"min-h-screen flex items-center justify-center","children":"Loading..."}],"children":["$","main",null,{"id":"main-content","role":"main","className":"min-h-screen bg-background pt-16","children":[["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children",["slug","cloud_native_vs_computing","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9","$La",null],"segment":"__PAGE__?{\"slug\":\"cloud_native_vs_computing\"}"},"styles":[]}],"segment":["slug","cloud_native_vs_computing","d"]},"styles":[]}],"segment":"blog"},"styles":[]}],["$","$Lb",null,{}]]}]}],["$","footer",null,{"role":"contentinfo","children":["$","$Lc",null,{}]}]]}]}]]}],null]
+d:I[95855,["430","static/chunks/430-c78dd4f9f63b3b37.js","396","static/chunks/396-1cd3861065982629.js","691","static/chunks/691-63f5e30053783d0a.js","346","static/chunks/346-36acd2a7c87157f7.js","308","static/chunks/app/blog/%5Bslug%5D/page-c63b7e85eed8f8ae.js"],""]
+e:T224b,<h1 id="cloud-native-vs-cloud-computing-whats-the-real-difference">Cloud Native vs Cloud Computing: What’s the Real Difference?</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Cloud computing revolutionized how we build and deploy applications. But with the rise of <strong>cloud-native</strong> technologies, the game has changed again. While the terms sound similar, they’re not the same.</p>
+<p>Let’s break down what each one means, how they relate, and why developers and businesses should care.</p>
+<h3 id="quick-analogy">Quick Analogy</h3>
+<blockquote>
+<p><strong>Cloud computing</strong> is like renting a car when you need it.<br>
+<strong>Cloud native</strong> is like owning an electric self-driving car — built from scratch for this new era.</p>
+</blockquote>
+<hr>
+<h2 id="what-is-cloud-computing">What is Cloud Computing?</h2>
+<p>Cloud computing is the <strong>on-demand delivery of computing services</strong> like storage, servers, and databases over the internet.</p>
+<h3 id="key-characteristics">Key Characteristics:</h3>
+<ul>
+<li>Pay-as-you-go pricing</li>
+<li>Scalable infrastructure</li>
+<li>Accessible from anywhere</li>
+<li>No need to manage physical servers</li>
+</ul>
+<div data-component="feature" data-type="feature">Popular cloud providers: <strong>Amazon Web Services (AWS)</strong>, <strong>Microsoft Azure</strong>, <strong>Google Cloud Platform (GCP)</strong>, and <strong>Oracle Cloud (OCI)</strong>.</div>
+<h3 id="common-services">Common Services:</h3>
+<ul>
+<li>Compute (e.g., EC2, Cloud Run)</li>
+<li>Storage (e.g., S3, Blob Storage)</li>
+<li>Databases (e.g., RDS, Firestore)</li>
+<li>Networking, monitoring, security, etc.</li>
+</ul>
+<div data-component="callout" data-type="warning">Cloud computing enables flexibility, but just lifting and shifting old apps to the cloud doesn’t unlock full potential.</div>
+<hr>
+<h2 id="what-is-cloud-native">What is Cloud Native?</h2>
+<p><strong>Cloud native</strong> is a <strong>design philosophy</strong> — building apps specifically to run and thrive in cloud environments.</p>
+<h3 id="cloud-native-apps-are">Cloud Native Apps are:</h3>
+<ul>
+<li>Containerized (e.g., Docker)</li>
+<li>Microservices-based</li>
+<li>Managed through CI/CD pipelines</li>
+<li>Designed to auto-scale and self-heal</li>
+<li>Deployed with infrastructure-as-code</li>
+</ul>
+<div data-component="feature" data-type="feature">Tools like <strong>Kubernetes</strong>, <strong>Helm</strong>, <strong>Istio</strong>, and <strong>Terraform</strong> are staples of the cloud-native ecosystem.</div>
+<hr>
+<h2 id="key-differences-cloud-computing-vs-cloud-native">Key Differences: Cloud Computing vs Cloud Native</h2>
+<p>Here’s a breakdown of how they differ:</p>
+<ul>
+<li>
+<p><strong>Definition</strong>:</p>
+<ul>
+<li><em>Cloud Computing</em>: Renting computing services online.</li>
+<li><em>Cloud Native</em>: Building applications to fully leverage cloud platforms from the ground up.</li>
+</ul>
+</li>
+<li>
+<p><strong>Architecture</strong>:</p>
+<ul>
+<li><em>Cloud Computing</em>: Often used to host traditional, monolithic apps.</li>
+<li><em>Cloud Native</em>: Emphasizes microservices and modular design.</li>
+</ul>
+</li>
+<li>
+<p><strong>Deployment</strong>:</p>
+<ul>
+<li><em>Cloud Computing</em>: May require manual or semi-automated deployment.</li>
+<li><em>Cloud Native</em>: Uses CI/CD pipelines for full automation.</li>
+</ul>
+</li>
+<li>
+<p><strong>Scalability</strong>:</p>
+<ul>
+<li><em>Cloud Computing</em>: Supports scalability, but often reactive.</li>
+<li><em>Cloud Native</em>: Built to scale dynamically by default.</li>
+</ul>
+</li>
+<li>
+<p><strong>Resilience</strong>:</p>
+<ul>
+<li><em>Cloud Computing</em>: Resilience depends on the setup.</li>
+<li><em>Cloud Native</em>: Built with self-healing and fault tolerance in mind.</li>
+</ul>
+</li>
+</ul>
+<div data-component="alert" data-type="error">Migrating to the cloud without redesigning your app can lead to high costs and poor performance.</div>
+<hr>
+<h2 id="why-cloud-native-matters">Why Cloud Native Matters</h2>
+<p>In a world where user expectations are sky-high, <strong>speed</strong>, <strong>resilience</strong>, and <strong>scalability</strong> are non-negotiable. Cloud-native applications embrace these from day one.</p>
+<p>Benefits include:</p>
+<ul>
+<li>Faster release cycles</li>
+<li>Easy rollbacks and testing</li>
+<li>Better resource efficiency</li>
+<li>Built-in observability and monitoring</li>
+</ul>
+<hr>
+<h2 id="when-should-you-use-each">When Should You Use Each?</h2>
+<h3 id="use-cloud-computing-when">Use <strong>Cloud Computing</strong> when:</h3>
+<ul>
+<li>Migrating legacy systems</li>
+<li>Hosting simple websites or apps</li>
+<li>You need quick, cost-effective infrastructure</li>
+</ul>
+<h3 id="use-cloud-native-when">Use <strong>Cloud Native</strong> when:</h3>
+<ul>
+<li>Building new apps for scale and speed</li>
+<li>Adopting DevOps practices</li>
+<li>You want automation and flexibility from day one</li>
+</ul>
+<hr>
+<h2 id="a-simple-cloud-native-example">A Simple Cloud Native Example</h2>
+<p>Imagine a <strong>ToDo App</strong> with:</p>
+<ul>
+<li>Backend in Python (Flask)</li>
+<li>Frontend in React</li>
+<li>CI/CD with GitHub Actions</li>
+<li>Dockerized services</li>
+<li>Deployed on Kubernetes (GKE or OCI)</li>
+</ul>
+<pre class="language-yaml"><code class="language-yaml code-highlight"><span class="code-line"><span class="token comment"># Kubernetes Deployment (cloud-native style)</span>
+</span><span class="code-line"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1
+</span><span class="code-line"><span class="token key atrule">kind</span><span class="token punctuation">:</span> Deployment
+</span><span class="code-line"><span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+</span><span class="code-line">  <span class="token key atrule">name</span><span class="token punctuation">:</span> todo<span class="token punctuation">-</span>backend
+</span><span class="code-line"><span class="token key atrule">spec</span><span class="token punctuation">:</span>
+</span><span class="code-line">  <span class="token key atrule">replicas</span><span class="token punctuation">:</span> <span class="token number">3</span>
+</span><span class="code-line">  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+</span><span class="code-line">    <span class="token key atrule">matchLabels</span><span class="token punctuation">:</span>
+</span><span class="code-line">      <span class="token key atrule">app</span><span class="token punctuation">:</span> todo
+</span><span class="code-line">  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+</span><span class="code-line">    <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+</span><span class="code-line">      <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+</span><span class="code-line">        <span class="token key atrule">app</span><span class="token punctuation">:</span> todo
+</span><span class="code-line">    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+</span><span class="code-line">      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+</span><span class="code-line">      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> backend
+</span><span class="code-line">        <span class="token key atrule">image</span><span class="token punctuation">:</span> myrepo/todo<span class="token punctuation">-</span>api<span class="token punctuation">:</span>v1
+</span><span class="code-line">        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+</span><span class="code-line">        <span class="token punctuation">-</span> <span class="token key atrule">containerPort</span><span class="token punctuation">:</span> <span class="token number">5000</span>
+</span></code></pre>
+<hr>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>Cloud computing is the foundation. Cloud native is how we <strong>elevate</strong> that foundation.</p>
+<p>Whether you’re migrating an app or starting fresh, understanding the difference between <strong>cloud computing</strong> and <strong>cloud native</strong> is key to building efficient, scalable, and modern applications.</p>
+<p>Start small, embrace containers, and let the cloud work <strong>for</strong> you — not just <strong>with</strong> you.</p>
+<hr>
+<p>Got questions about going cloud native or setting up containers and CI/CD? <a href="mailto:anass.elhannaoui.io@gmail.com">Let’s chat!</a></p>a:["$","$Ld",null,{"post":{"slug":"cloud_native_vs_computing","frontMatter":{"title":"Cloud Native vs Cloud Computing: What’s the Real Difference?","date":"2025-04-17","excerpt":"Cloud computing powers today’s tech, but cloud native takes it further. Understand the difference and why it matters for modern developers and businesses.","coverImage":"/images/blog/cloud-native.avif","tags":["cloud","cloud-native","devops"],"author":"Anass El Hannaoui","readingTime":"4 min read"},"content":"$e"}}]
+9:null

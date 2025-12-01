@@ -1,0 +1,89 @@
+1:HL["/_next/static/css/584952a0df3c54c2.css","style",{"crossOrigin":""}]
+0:["XxQEJsTJ2qT1wceXWBBBb",[[["",{"children":["blog",{"children":[["slug","Cloud_Computing","d"],{"children":["__PAGE__?{\"slug\":\"Cloud_Computing\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/584952a0df3c54c2.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:I[1815,["430","static/chunks/430-c78dd4f9f63b3b37.js","656","static/chunks/656-57ce34e7bfc36248.js","396","static/chunks/396-1cd3861065982629.js","185","static/chunks/app/layout-6d470cd35391b1f6.js"],"ThemeProvider"]
+5:I[25587,["430","static/chunks/430-c78dd4f9f63b3b37.js","656","static/chunks/656-57ce34e7bfc36248.js","396","static/chunks/396-1cd3861065982629.js","185","static/chunks/app/layout-6d470cd35391b1f6.js"],"Navbar"]
+6:"$Sreact.suspense"
+7:I[56954,[],""]
+8:I[7264,[],""]
+b:I[89817,["430","static/chunks/430-c78dd4f9f63b3b37.js","656","static/chunks/656-57ce34e7bfc36248.js","396","static/chunks/396-1cd3861065982629.js","185","static/chunks/app/layout-6d470cd35391b1f6.js"],"Analytics"]
+c:I[42941,["430","static/chunks/430-c78dd4f9f63b3b37.js","656","static/chunks/656-57ce34e7bfc36248.js","396","static/chunks/396-1cd3861065982629.js","185","static/chunks/app/layout-6d470cd35391b1f6.js"],"Footer"]
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Anass El Hannaoui | Cloud & AI Enthusiast"}],["$","meta","2",{"name":"description","content":"Computer science student passionate about Cloud, DevOps, and AI. Building skills through real projects in machine learning, scalable systems, and full-stack development."}],["$","link","3",{"rel":"author","href":"https://aelhannaoui-portfolio.vercel.app"}],["$","meta","4",{"name":"author","content":"Anass El Hannaoui"}],["$","meta","5",{"name":"keywords","content":"Cloud Computing,DevOps Automation,Machine Learning,AI Engineer,Full Stack Developer,Docker,Kubernetes,Spring Boot,Next.js Portfolio,Anass El Hannaoui"}],["$","meta","6",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","7",{"name":"creator","content":"Anass El Hannaoui"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","10",{"rel":"canonical","href":"https://aelhannaoui-portfolio.vercel.app"}],["$","meta","11",{"property":"og:title","content":"Anass El Hannaoui | Cloud & AI Engineer"}],["$","meta","12",{"property":"og:description","content":"Cloud & AI enthusiast exploring DevOps, scalable systems, and ML projects."}],["$","meta","13",{"property":"og:url","content":"https://aelhannaoui-portfolio.vercel.app"}],["$","meta","14",{"property":"og:site_name","content":"Anass El Hannaoui"}],["$","meta","15",{"property":"og:locale","content":"en_US"}],["$","meta","16",{"property":"og:image","content":"http://localhost:3000/og-image.webp"}],["$","meta","17",{"property":"og:image:width","content":"1200"}],["$","meta","18",{"property":"og:image:height","content":"630"}],["$","meta","19",{"property":"og:image:alt","content":"Anass El Hannaoui Portfolio"}],["$","meta","20",{"property":"og:image:type","content":"image/webp"}],["$","meta","21",{"property":"og:type","content":"website"}],["$","meta","22",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","23",{"name":"twitter:creator","content":"@yourtwitterhandle"}],["$","meta","24",{"name":"twitter:title","content":"Anass El Hannaoui | Cloud & AI Enthusiast"}],["$","meta","25",{"name":"twitter:description","content":"Cloud & AI enthusiast exploring DevOps, scalable systems, and ML projects."}],["$","meta","26",{"name":"twitter:image","content":"http://localhost:3000/og-image.webp"}],["$","link","27",{"rel":"shortcut icon","href":"/icons/favicon.ico"}],["$","link","28",{"rel":"icon","href":"/icons/logo.svg"}],["$","link","29",{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png"}]]
+2:[null,["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"scroll-smooth motion-reduce:scroll-auto","children":[["$","head",null,{"children":["$","link",null,{"rel":"preload","href":"/fonts/inter-latin.woff2","as":"font","type":"font/woff2","crossOrigin":"anonymous"}]}],["$","body",null,{"className":"__className_d65c78 antialiased","children":["$","$L4",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","a",null,{"href":"#main-content","className":"absolute left-0 top-0 z-50 p-2 text-foreground bg-background opacity-0 focus:opacity-100 focus:outline-none","children":"Skip to content"}],["$","header",null,{"role":"banner","children":["$","$L5",null,{}]}],["$","$6",null,{"fallback":["$","div",null,{"className":"min-h-screen flex items-center justify-center","children":"Loading..."}],"children":["$","main",null,{"id":"main-content","role":"main","className":"min-h-screen bg-background pt-16","children":[["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children",["slug","Cloud_Computing","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9","$La",null],"segment":"__PAGE__?{\"slug\":\"Cloud_Computing\"}"},"styles":[]}],"segment":["slug","Cloud_Computing","d"]},"styles":[]}],"segment":"blog"},"styles":[]}],["$","$Lb",null,{}]]}]}],["$","footer",null,{"role":"contentinfo","children":["$","$Lc",null,{}]}]]}]}]]}],null]
+d:I[95855,["430","static/chunks/430-c78dd4f9f63b3b37.js","396","static/chunks/396-1cd3861065982629.js","691","static/chunks/691-63f5e30053783d0a.js","346","static/chunks/346-36acd2a7c87157f7.js","308","static/chunks/app/blog/%5Bslug%5D/page-c63b7e85eed8f8ae.js"],""]
+e:T153a,<div data-component="feature" data-type="feature">Cloud computing enables businesses to reduce IT costs, enhance scalability, and accelerate digital transformation.</div>
+<p>In the last decade, <strong>cloud computing</strong> has evolved from a buzzword into the backbone of modern digital services. It’s no longer just a trend—it's the default choice for businesses looking to innovate, reduce operational overhead, and scale globally.</p>
+<h2 id="what-is-cloud-computing">What is Cloud Computing?</h2>
+<p>Cloud computing is the on-demand delivery of computing services over the internet. These services include storage, servers, databases, networking, software, analytics, and more.</p>
+<p>Instead of owning and maintaining physical data centers and servers, businesses rent resources from cloud providers like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).</p>
+<h2 id="types-of-cloud-services-the-cloud-stack">Types of Cloud Services (The Cloud Stack)</h2>
+<ol>
+<li>
+<p><strong>Infrastructure as a Service (IaaS):</strong> Provides virtualized computing resources over the internet.</p>
+<ul>
+<li>Examples: AWS EC2, Azure VMs</li>
+</ul>
+</li>
+<li>
+<p><strong>Platform as a Service (PaaS):</strong> Offers a platform allowing developers to build, test, and deploy applications without managing underlying hardware.</p>
+<ul>
+<li>Examples: Google App Engine, Heroku</li>
+</ul>
+</li>
+<li>
+<p><strong>Software as a Service (SaaS):</strong> Delivers software applications over the internet, usually on a subscription basis.</p>
+<ul>
+<li>Examples: Gmail, Dropbox, Salesforce</li>
+</ul>
+</li>
+</ol>
+<h2 id="cloud-deployment-models">Cloud Deployment Models</h2>
+<ul>
+<li><strong>Public Cloud:</strong> Services offered over the public internet and available to anyone (e.g., AWS, GCP).</li>
+<li><strong>Private Cloud:</strong> Cloud infrastructure dedicated to a single organization.</li>
+<li><strong>Hybrid Cloud:</strong> Combines public and private clouds, offering greater flexibility and data deployment options.</li>
+</ul>
+<div data-component="callout" data-type="warning">Not all applications are suitable for the public cloud. Security, compliance, and latency can be major factors in deciding the right model.</div>
+<h2 id="benefits-of-cloud-computing">Benefits of Cloud Computing</h2>
+<ul>
+<li><strong>Cost Efficiency:</strong> Pay only for what you use. No upfront hardware investments.</li>
+<li><strong>Scalability:</strong> Instantly scale resources up or down based on demand.</li>
+<li><strong>High Availability:</strong> Redundant systems ensure uptime and data reliability.</li>
+<li><strong>Disaster Recovery:</strong> Built-in backup and failover systems.</li>
+<li><strong>Global Reach:</strong> Deploy applications closer to users via global data centers.</li>
+</ul>
+<h2 id="key-use-cases">Key Use Cases</h2>
+<ul>
+<li>Hosting websites and applications</li>
+<li>Data storage and backup</li>
+<li>Big data analytics</li>
+<li>Machine learning model training</li>
+<li>Internet of Things (IoT) infrastructure</li>
+</ul>
+<h2 id="example-hosting-a-web-app-on-aws">Example: Hosting a Web App on AWS</h2>
+<pre class="language-bash"><code class="language-bash code-highlight"><span class="code-line"><span class="token comment"># Install AWS CLI and configure</span>
+</span><span class="code-line">aws configure
+</span><span class="code-line">
+</span><span class="code-line"><span class="token comment"># Deploy static website to S3</span>
+</span><span class="code-line">aws s3 mb s3://my-website-bucket
+</span><span class="code-line">aws s3 <span class="token function">sync</span> ./website s3://my-website-bucket <span class="token parameter variable">--acl</span> public-read
+</span></code></pre>
+<p>This simple script shows how easy it is to launch a global website using cloud resources.</p>
+<h2 id="popular-cloud-providers-at-a-glance">Popular Cloud Providers at a Glance</h2>
+<ul>
+<li><strong>AWS</strong> : EC2, S3, Lambda, RDS, CloudFront</li>
+<li><strong>Azure</strong> : VMs, Azure Functions, Blob Storage, Cosmos DB</li>
+<li><strong>GCP</strong> :Compute Engine, Cloud Functions, BigQuery, Cloud Storage</li>
+</ul>
+<h2 id="challenges-and-considerations">Challenges and Considerations</h2>
+<p>While cloud offers many advantages, businesses must consider:</p>
+<ul>
+<li><strong>Security and compliance</strong>: Shared responsibility model.</li>
+<li><strong>Vendor lock-in</strong>: Migration between providers can be complex.</li>
+<li><strong>Latency and connectivity</strong>: Cloud performance depends on reliable internet.</li>
+</ul>
+<h2 id="future-of-cloud-computing">Future of Cloud Computing</h2>
+<p>The future is multi-cloud and edge computing. Organizations are increasingly adopting hybrid and multi-cloud strategies to avoid vendor lock-in and improve performance. Serverless computing and AI-powered cloud services are also shaping next-gen cloud-native applications.</p>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>Cloud computing has transformed the way organizations think about IT infrastructure. It supports agility, innovation, and growth in an increasingly digital world. Whether you're a startup or an enterprise, leveraging the cloud effectively can be the key to staying competitive in today’s market.</p>
+<p>In future posts, I’ll dive deeper into cloud providers, DevOps in the cloud, and infrastructure automation tools like Terraform and Kubernetes.</p>a:["$","$Ld",null,{"post":{"slug":"Cloud_Computing","frontMatter":{"title":"Cloud Computing: Transforming Business IT Infrastructure","date":"2025-04-07","excerpt":"Explore how cloud computing is reshaping how businesses operate, scale, and manage IT infrastructure.","coverImage":"https://payproglobal.com/wp-content/uploads/2024/10/What-is-Cloud-Computing.png","tags":["cloud computing","infrastructure","IT","digital transformation"],"author":"Anass El Hannaoui","readingTime":"4 min read"},"content":"$e"}}]
+9:null

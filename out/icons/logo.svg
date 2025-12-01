@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4361ee"/>
+      <stop offset="100%" stop-color="#7209b7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- A shape -->
+  <path d="M10 75 L23 25 L38 25 L51 75 L36 75 L34 65 L27 65 L25 75 Z M28 55 L33 55 L30.5 40 Z" fill="url(#techGradient)"/> <!-- A with crossbar -->
+  
+  <!-- N shape (centered) -->
+  <path d="M45 75 L50 25 L60 25 L70 55 L65 25 L75 25 L70 75 L60 75 L50 45 L55 75 Z" fill="url(#techGradient)"/> <!-- N -->
+  
+  <!-- S shape (moved left) -->
+  <path d="M70 75 L75 65 L85 65 L85 55 C85 52 75 52 75 45 C75 35 75 25 85 25 L95 25 L93 35 L85 35 L85 40 C85 43 95 43 95 50 C95 60 90 75 80 75 Z" fill="url(#techGradient)"/> <!-- S -->
+</svg>
