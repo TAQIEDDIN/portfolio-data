@@ -151,7 +151,7 @@ decision-making, and control, with a focus on performance optimization and produ
             <div className="relative w-full max-w-[380px] aspect-square">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 dark:from-gray-600/20 to-transparent -z-10 blur-xl" />
              <Image
-                src="/images/log.png"
+                src="/images/logo.png"
                 alt="Taqi eddine El mamouni"
                 width={400}
                 height={400}
