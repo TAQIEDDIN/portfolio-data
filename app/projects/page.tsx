@@ -27,6 +27,137 @@ type Project = {
 
 export default function Projects() {
   const projects: Project[] = [
+
+    {
+  id: "hss-autonomous-defense-system",
+  title: "HSS Autonomous Drone Detection & Tracking System",
+  period: "2026",
+  description:
+    "Developed an AI-powered autonomous defense perception system for HSS applications focused on real-time drone detection, tracking, and target engagement support. The system combines YOLO-based object detection, multi-object tracking, and real-time targeting visualization for aerial threat monitoring.",
+  image: "/images/hss.png",
+  technologies: [
+    { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "YOLO", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+    { name: "ByteTrack", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "DeepSORT", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "Jetson", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" }
+  ],
+  responsibilities: [
+    "Built a real-time UAV detection pipeline using YOLO models.",
+    "Integrated ByteTrack and DeepSORT for stable drone trajectory tracking.",
+    "Implemented reticle stabilization and target smoothing for precise tracking visualization.",
+    "Optimized inference for embedded NVIDIA Jetson deployment.",
+    "Worked on camera calibration, focal setup, and small-object aerial detection performance.",
+    "Prepared the perception module for autonomous defense and surveillance workflows."
+  ],
+  demo: "#",
+  category: ["Machine Learning"]
+},
+
+    {
+  id: "ida-autonomous-mission-system",
+  title: "Autonomous İDA Mission System (TEKNOFEST)",
+  period: "2026",
+  description:
+    "Developed the perception, navigation, and mission execution pipeline for an autonomous Unmanned Surface Vehicle (İDA) designed for TEKNOFEST mission tracks. The system integrates waypoint navigation, LiDAR-assisted obstacle safety, UAV-to-USV telemetry communication, target buoy color detection, and autonomous physical engagement.",
+  image: "/images/ida.png",
+  technologies: [
+    { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+    { name: "NVIDIA Jetson", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "Pixhawk", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "LiDAR", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "GPS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" }
+  ],
+  responsibilities: [
+    "Designed the end-to-end mission flow for Parkur-1, Parkur-2, and Parkur-3 autonomous tasks.",
+    "Implemented waypoint tracking and heading correction using GPS, IMU, and PID control.",
+    "Developed buoy detection and target color matching pipeline using OpenCV.",
+    "Integrated UAV-to-İDA telemetry communication for transferring target buoy color information.",
+    "Implemented LiDAR-based final approach safety verification before physical engagement.",
+    "Worked on Jetson-Pixhawk sensor fusion and telemetry integration.",
+    "Prepared competition-ready algorithm flowcharts, communication architecture, and system reports."
+  ],
+  demo: "#",
+  category: ["Machine Learning"]
+},
+
+{
+  id: "rf-signal-analysis-system",
+  title: "RF Signal Analysis and Electronic Support System",
+  period: "2026",
+  description:
+    "Developed an RF signal analysis workflow for electronic support applications using SDR-based data acquisition, signal preprocessing, and AI-assisted interpretation. The system focuses on extracting useful information from radio frequency signals for detection, classification, and situational awareness.",
+  image: "/images/rf-system.png",
+  technologies: [
+    { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "NumPy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
+    { name: "Matplotlib", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" },
+    { name: "SDR", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "Signal Processing", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" }
+  ],
+  responsibilities: [
+    "Worked on SDR-based signal collection and preprocessing workflows for RF analysis.",
+    "Converted raw IQ signal data into spectrogram-like representations for interpretation and analysis.",
+    "Applied FFT and signal processing techniques to extract relevant frequency-domain features.",
+    "Prepared structured datasets for potential AI-based classification and recognition tasks.",
+    "Contributed to system design for electronic support and situational awareness applications.",
+    "Documented the end-to-end pipeline from signal acquisition to feature extraction."
+  ],
+  demo: "#",
+  category: ["Machine Learning"]
+},
+
+    {
+  id: "face-recognition-attendance-system",
+  title: "Face Recognition Attendance Monitoring System",
+  period: "March 2026",
+  description:
+    "Developed a real-time face recognition attendance system for automatic employee check-in and check-out. The system captures live camera streams, identifies registered users, logs attendance events, and stores unknown faces for review, enabling secure and efficient workplace monitoring.",
+  image: "/images/face-attendance.png",
+  technologies: [
+    { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+    { name: "Flask", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
+    { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" }
+  ],
+  responsibilities: [
+    "Built a real-time face recognition pipeline for employee identification and attendance tracking.",
+    "Implemented automatic check-in and check-out logic with time-based event handling.",
+    "Developed a Flask-based backend to stream camera feeds and manage attendance records.",
+    "Stored recognized and unknown face events in structured local folders and database records.",
+    "Integrated database support for employee management and attendance history.",
+    "Designed the system for reliable local deployment in workplace environments."
+  ],
+  demo: "#",
+  category: ["Machine Learning", "Web Development"]
+} ,
+    {
+  id: "adas-real-time-system",
+  title: "Real-Time ADAS System for Road Safety",
+  period: "March 2026",
+  description:
+    "Developed a real-time Advanced Driver Assistance System (ADAS) integrating lane detection, vehicle detection, and driver monitoring into a unified perception pipeline. The system combines deep learning and computer vision techniques to improve road awareness, lane keeping, and driving safety in real time.",
+  image: "/images/adas.jpg",
+  technologies: [
+    { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+    { name: "YOLO", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "PyTorch", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+    { name: "NumPy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" }
+  ],
+  responsibilities: [
+    "Built a real-time lane detection pipeline using classical computer vision techniques including perspective transform, thresholding, and polynomial fitting.",
+    "Integrated YOLO-based vehicle detection for identifying surrounding vehicles and road obstacles.",
+    "Implemented driver monitoring features to support fatigue and attention analysis.",
+    "Designed a unified frame-by-frame perception pipeline for multi-task road scene analysis.",
+    "Optimized inference and visualization for real-time performance.",
+    "Generated annotated output videos for testing, evaluation, and demonstration purposes."
+  ],
+  demo: "#",
+  category: ["Machine Learning"]
+},
     {
       id: "ai-pedagogical-assistant",
       title: "Health Support Chatbot",
@@ -332,73 +463,55 @@ export default function Projects() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {filteredProjects.map((project, index) => (
-              <motion.div
-                key={project.id}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.2, delay: index * 0.1 }}
-                whileHover={{ 
-                  y: -3,
-                  boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-                  transition: { duration: 0.1 } 
-                }}
-                className="relative flex flex-col sm:flex-row p-4 rounded-lg bg-gradient-to-b from-gray-200/50 to-gray-100/30 dark:from-gray-800/50 dark:to-gray-900/30 cursor-pointer min-h-[300px]"
-                onClick={() => openProjectDetails(project)}
-              >
-                <div className="flex-shrink-0 w-full sm:w-32 h-32 sm:h-auto mb-4 sm:mb-0 sm:mr-4">
-                  <Image
-                    src={project.image}
-                    alt={`${project.title} preview`}
-                    width={128}
-                    height={128}
-                    className="w-full h-full object-cover rounded-lg"
-                  />
+                          <motion.div
+              key={project.id}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.25, delay: index * 0.08 }}
+              whileHover={{
+                y: -6,
+                boxShadow: "0 10px 25px rgba(0,0,0,0.12)",
+              }}
+              className="rounded-2xl overflow-hidden bg-gradient-to-b from-gray-200/50 to-gray-100/30 dark:from-gray-800/50 dark:to-gray-900/30 cursor-pointer shadow-md hover:shadow-xl transition-all duration-300"
+              onClick={() => openProjectDetails(project)}
+            >
+              {/* Project Image */}
+              <div className="w-full h-56 overflow-hidden bg-gray-100 dark:bg-gray-800">
+                <Image
+                  src={project.image}
+                  alt={`${project.title} preview`}
+                  width={600}
+                  height={300}
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+
+              {/* Project Content */}
+              <div className="p-5">
+                <h3 className="text-xl font-semibold mb-2 text-foreground dark:text-white">
+                  {project.title}
+                </h3>
+
+                <p className="text-sm text-muted-foreground dark:text-gray-400 mb-2">
+                  {project.period}
+                </p>
+
+                <p className="text-sm text-muted-foreground dark:text-gray-400 mb-4 line-clamp-4">
+                  {project.description}
+                </p>
+
+                <div className="flex flex-wrap gap-2">
+                  {project.technologies.slice(0, 5).map((tech, i) => (
+                    <span
+                      key={i}
+                      className="text-xs bg-primary/10 dark:bg-gray-800 text-primary dark:text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech.name}
+                    </span>
+                  ))}
                 </div>
-                <div className="flex-grow">
-                  <h3 className="text-lg font-medium mb-2 text-foreground dark:text-white">
-                    {project.title}
-                  </h3>
-                  <p className="text-xs text-muted-foreground dark:text-gray-400 mb-2">
-                    {project.period}
-                  </p>
-                  <p className="text-xs text-muted-foreground dark:text-gray-400 mb-3">
-                    {project.description}
-                  </p>
-                  <div className="flex flex-wrap gap-1 mb-3">
-                    {project.technologies.map((tech, i) => (
-                      <motion.span
-                        key={i}
-                        whileHover={{ scale: 1.1 }}
-                        className="text-xs bg-primary/10 dark:bg-gray-800 text-primary dark:text-gray-300 px-1.5 py-0.5 rounded-full"
-                      >
-                        <Image
-                          src={tech.icon}
-                          alt={tech.name}
-                          width={12}
-                          height={12}
-                          className="w-3 h-3 inline-block mr-1"
-                        />
-                        {tech.name}
-                      </motion.span>
-                    ))}
-                  </div>
-                  <div className="flex gap-2">
-                    {project.demo !== "#" && (
-                      <Button
-                        asChild
-                        variant="outline"
-                        size="sm"
-                        className="rounded-full px-3 py-0.5 text-xs font-semibold border border-primary/20 dark:border-gray-600 hover:bg-primary/10 dark:hover:bg-gray-800 hover:border-primary/40 dark:hover:border-gray-500 transition-all duration-300 flex items-center justify-center text-foreground dark:text-gray-300"
-                      >
-                        <Link href={project.demo} target="_blank">
-                          <ExternalLink className="mr-1 h-3 w-3" />
-                          {project.title === "RipAns – RMI Chat Application" ? "App Website" : "Live Demo"}
-                        </Link>
-                      </Button>
-                    )}
-                  </div>
-                </div>
-              </motion.div>
+              </div>
+            </motion.div>
             ))}
           </div>
         </motion.div>
