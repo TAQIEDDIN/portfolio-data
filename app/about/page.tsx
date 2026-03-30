@@ -133,7 +133,7 @@ export default function About() {
             <div className="shrink-0">
               <div className="relative w-32 h-32 overflow-hidden rounded-full border-4 border-background dark:border-gray-900 shadow-lg">
                 <Image
-                  src="/images/poort.png"
+                  src="/images/logo.png"
                   alt="Profile"
                   fill
                   className="object-cover"

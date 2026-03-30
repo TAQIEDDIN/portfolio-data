@@ -86,7 +86,12 @@ export default function Home() {
               variants={itemVariants}
               className="text-lg text-muted-foreground dark:text-gray-400 mb-10 leading-relaxed max-w-2xl"
             >
-              I'm a computer science student exploring the world of modern technologies, continuously learning and building projects that solve real-world problems.
+              AI Engineer specializing in Computer Vision, Autonomous Systems, and LLM-based applications, with hands-on
+experience building, training, and deploying end-to-end AI solutions. Proficient in Python, deep learning, and
+embedded AI, with strong expertise in object detection (YOLO), multi-object tracking, and SDR-based signal
+processing.
+Experienced in developing real-time intelligent systems for robotics and defense applications, integrating perception,
+decision-making, and control, with a focus on performance optimization and production-ready deployment.
             </motion.p>
 
             <motion.div
@@ -146,7 +151,7 @@ export default function Home() {
             <div className="relative w-full max-w-[380px] aspect-square">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 dark:from-gray-600/20 to-transparent -z-10 blur-xl" />
              <Image
-                src="/images/Poort.png"
+                src="/images/log.png"
                 alt="Taqi eddine El mamouni"
                 width={400}
                 height={400}
