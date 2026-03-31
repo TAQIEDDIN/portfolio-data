@@ -197,8 +197,7 @@ export default function Skills() {
       <div className="orb" style={{ width:500,height:500,background:"radial-gradient(circle,rgba(34,211,238,.05),transparent 70%)",top:-100,right:-100 }} />
       <div className="orb" style={{ width:400,height:400,background:"radial-gradient(circle,rgba(99,102,241,.05),transparent 70%)",bottom:200,left:-100 }} />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-5 lg:px-8 pt-10 pb-24">
-
+<div className="relative z-10 max-w-5xl mx-auto px-5 lg:px-8 pt-24 md:pt-28 pb-24">
         {/* ── Header ── */}
         <motion.div initial={{ opacity:0,y:20 }} animate={{ opacity:1,y:0 }} transition={{ duration:.6,ease:[0.16,1,0.3,1] }} className="mb-12">
           <p className="sec-label mb-3">// EXPERTISE</p>

@@ -117,8 +117,8 @@ export default function RootLayout({
             </header>
           )}
           <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
-            <main id="main-content" role="main" className="min-h-screen bg-background pt-16">
-              {children}
+<main id="main-content" role="main" className="min-h-screen bg-background">
+                {children}
               <Analytics />
             </main>
           </Suspense>
