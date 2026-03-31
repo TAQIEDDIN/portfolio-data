@@ -31,15 +31,57 @@ export function Navbar() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap');
 
+        /* ── Full-width row that holds blur zones + pill ── */
+        .nav-row {
+          position: relative;
+          width: 100%;
+          max-width: 1050px;
+          display: flex;
+          align-items: center;
+        }
+
+        /* ── Blur zones: left & right of the pill ── */
+        .nav-blur-left,
+        .nav-blur-right {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 120px;
+          height: 52px;
+          backdrop-filter: blur(14px);
+          -webkit-backdrop-filter: blur(14px);
+          pointer-events: none;
+          z-index: 1;
+        }
+
+        .nav-blur-left {
+          left: 0;
+          /* Fade: strong blur on far left, fades to nothing toward the pill */
+          -webkit-mask-image: linear-gradient(to right, black 0%, transparent 100%);
+          mask-image: linear-gradient(to right, black 0%, transparent 100%);
+        }
+
+        .nav-blur-right {
+          right: 0;
+          /* Fade: nothing near pill, strong blur on far right */
+          -webkit-mask-image: linear-gradient(to left, black 0%, transparent 100%);
+          mask-image: linear-gradient(to left, black 0%, transparent 100%);
+        }
+
+        /* ── The pill itself ── */
         .nav-pill {
-          background: rgba(10, 18, 35, 0.75);
-          backdrop-filter: blur(18px);
-          -webkit-backdrop-filter: blur(18px);
+          position: relative;
+          z-index: 2;
+          flex: 1;
+          background: rgba(10, 18, 35, 0.40);
+          backdrop-filter: blur(28px) saturate(1.4);
+          -webkit-backdrop-filter: blur(28px) saturate(1.4);
           border: 1px solid rgba(34, 211, 238, 0.15);
           border-radius: 999px;
-          transition: border-color 0.3s, box-shadow 0.3s;
+          transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
         }
         .nav-pill.scrolled {
+          background: rgba(10, 18, 35, 0.55);
           border-color: rgba(34, 211, 238, 0.28);
           box-shadow: 0 0 40px rgba(34, 211, 238, 0.06), 0 8px 32px rgba(0,0,0,0.4);
         }
@@ -92,6 +134,7 @@ export function Navbar() {
           height: 18px;
           background: rgba(34, 211, 238, 0.2);
           margin: 0 4px;
+          flex-shrink: 0;
         }
 
         .btn-contact {
@@ -105,6 +148,8 @@ export function Navbar() {
           color: #03060f;
           transition: transform 0.2s, box-shadow 0.2s, filter 0.2s;
           white-space: nowrap;
+          border: none;
+          cursor: pointer;
         }
         .btn-contact:hover {
           transform: translateY(-1px);
@@ -112,12 +157,12 @@ export function Navbar() {
           filter: brightness(1.08);
         }
 
-        /* Mobile menu */
         .mobile-menu {
-          background: rgba(7, 13, 26, 0.97);
+          background: rgba(7, 13, 26, 0.85);
+          backdrop-filter: blur(28px) saturate(1.4);
+          -webkit-backdrop-filter: blur(28px) saturate(1.4);
           border: 1px solid rgba(34, 211, 238, 0.15);
           border-radius: 16px;
-          backdrop-filter: blur(20px);
         }
         .mobile-nav-link {
           font-family: 'DM Sans', sans-serif;
@@ -142,6 +187,7 @@ export function Navbar() {
           display: flex; align-items: center; justify-content: center;
           transition: background 0.2s, border-color 0.2s;
           background: rgba(34, 211, 238, 0.05);
+          cursor: pointer;
         }
         .hamburger-btn:hover {
           background: rgba(34, 211, 238, 0.1);
@@ -149,21 +195,19 @@ export function Navbar() {
         }
       `}</style>
 
-      {/* ── Wrapper: full width, items centered ── */}
       <div className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 pt-4">
-        <div style={{ width: "100%", maxWidth: "1050px" }}>
+        <div className="nav-row">
+
+          {/* ── Blur zone LEFT ── */}
+          <div className="nav-blur-left" />
 
           {/* ── Pill navbar ── */}
           <nav className={`nav-pill px-6 py-3 flex items-center justify-between gap-4 ${scrolled ? "scrolled" : ""}`}>
 
-            {/* Logo */}
-            <Link href="/" className="nav-logo flex-shrink-0">
-              TAQI
-            </Link>
+            <Link href="/" className="nav-logo flex-shrink-0">TAQI</Link>
 
             <div className="nav-divider hidden md:block" />
 
-            {/* Desktop links */}
             <div className="hidden md:flex items-center gap-1 flex-1 justify-center">
               {navItems.slice(0, -1).map((item) => (
                 <Link
@@ -178,12 +222,10 @@ export function Navbar() {
 
             <div className="nav-divider hidden md:block" />
 
-            {/* CTA button */}
             <Link href="/contact" className="hidden md:block flex-shrink-0">
               <button className="btn-contact">CONTACT</button>
             </Link>
 
-            {/* Mobile hamburger */}
             <button
               className="md:hidden hamburger-btn ml-auto"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -193,26 +235,28 @@ export function Navbar() {
             </button>
           </nav>
 
-          {/* ── Mobile dropdown ── */}
-          {isMenuOpen && (
-            <div className="mobile-menu mt-2 p-3">
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.path}
-                  className={`mobile-nav-link ${pathname === item.path ? "active" : ""}`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
-          )}
+          {/* ── Blur zone RIGHT ── */}
+          <div className="nav-blur-right" />
 
         </div>
+
+        {/* Mobile dropdown — outside nav-row so it spans full width */}
+        {isMenuOpen && (
+          <div className="mobile-menu mt-2 p-3" style={{ width: "100%", maxWidth: "1050px" }}>
+            {navItems.map((item) => (
+              <Link
+                key={item.name}
+                href={item.path}
+                className={`mobile-nav-link ${pathname === item.path ? "active" : ""}`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
 
-      {/* Spacer so content isn't hidden under navbar */}
       <div style={{ height: "68px" }} />
     </>
   );
