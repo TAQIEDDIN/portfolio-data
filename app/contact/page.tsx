@@ -109,10 +109,10 @@ export default function Contact() {
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap');
 
         .ct-page {
-          min-height: 100vh;
-          padding: 80px 16px 40px;
-          background: transparent;
-        }
+  min-height: 100vh;
+  padding: 80px 16px 40px;
+  background: #03060f;
+}
 
         .ct-heading {
           font-family: 'Orbitron', sans-serif;
