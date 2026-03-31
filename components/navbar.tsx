@@ -195,67 +195,73 @@ export function Navbar() {
         }
       `}</style>
 
-      <div className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 pt-4">
-        <div className="nav-row">
+      <div
+  className="fixed top-0 left-0 right-0 z-50 px-4 pt-4"
+  style={{
+    backdropFilter: "blur(18px)",
+    WebkitBackdropFilter: "blur(18px)",
+    background: "linear-gradient(to bottom, rgba(3,6,15,0.28), rgba(3,6,15,0.08))",
+    borderBottom: "1px solid rgba(34,211,238,0.08)",
+  }}
+>
+  <div className="flex justify-center">
+    <div className="nav-row">
 
-          {/* ── Blur zone LEFT ── */}
-          <div className="nav-blur-left" />
+      <div className="nav-blur-left" />
 
-          {/* ── Pill navbar ── */}
-          <nav className={`nav-pill px-6 py-3 flex items-center justify-between gap-4 ${scrolled ? "scrolled" : ""}`}>
+      <nav className={`nav-pill px-6 py-3 flex items-center justify-between gap-4 ${scrolled ? "scrolled" : ""}`}>
+        <Link href="/" className="nav-logo flex-shrink-0">TAQI</Link>
 
-            <Link href="/" className="nav-logo flex-shrink-0">TAQI</Link>
+        <div className="nav-divider hidden md:block" />
 
-            <div className="nav-divider hidden md:block" />
-
-            <div className="hidden md:flex items-center gap-1 flex-1 justify-center">
-              {navItems.slice(0, -1).map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.path}
-                  className={`nav-link ${pathname === item.path ? "active" : ""}`}
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
-
-            <div className="nav-divider hidden md:block" />
-
-            <Link href="/contact" className="hidden md:block flex-shrink-0">
-              <button className="btn-contact">CONTACT</button>
-            </Link>
-
-            <button
-              className="md:hidden hamburger-btn ml-auto"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label="Toggle menu"
+        <div className="hidden md:flex items-center gap-1 flex-1 justify-center">
+          {navItems.slice(0, -1).map((item) => (
+            <Link
+              key={item.name}
+              href={item.path}
+              className={`nav-link ${pathname === item.path ? "active" : ""}`}
             >
-              {isMenuOpen ? <X size={16} /> : <Menu size={16} />}
-            </button>
-          </nav>
-
-          {/* ── Blur zone RIGHT ── */}
-          <div className="nav-blur-right" />
-
+              {item.name}
+            </Link>
+          ))}
         </div>
 
-        {/* Mobile dropdown — outside nav-row so it spans full width */}
-        {isMenuOpen && (
-          <div className="mobile-menu mt-2 p-3" style={{ width: "100%", maxWidth: "1050px" }}>
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                href={item.path}
-                className={`mobile-nav-link ${pathname === item.path ? "active" : ""}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
-        )}
+        <div className="nav-divider hidden md:block" />
+
+        <Link href="/contact" className="hidden md:block flex-shrink-0">
+          <button className="btn-contact">CONTACT</button>
+        </Link>
+
+        <button
+          className="md:hidden hamburger-btn ml-auto"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Toggle menu"
+        >
+          {isMenuOpen ? <X size={16} /> : <Menu size={16} />}
+        </button>
+      </nav>
+
+      <div className="nav-blur-right" />
+    </div>
+  </div>
+
+  {isMenuOpen && (
+    <div className="flex justify-center">
+      <div className="mobile-menu mt-2 p-3" style={{ width: "100%", maxWidth: "1050px" }}>
+        {navItems.map((item) => (
+          <Link
+            key={item.name}
+            href={item.path}
+            className={`mobile-nav-link ${pathname === item.path ? "active" : ""}`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            {item.name}
+          </Link>
+        ))}
       </div>
+    </div>
+  )}
+</div>
 
       <div style={{ height: "68px" }} />
     </>
