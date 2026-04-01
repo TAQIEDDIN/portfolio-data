@@ -16,8 +16,8 @@ export const metadata: Metadata = {
     shortcut: '/icons/favicon.ico', // Assumes file exists in /public
   },
   title: {
-    default: 'Anass El Hannaoui | Cloud & AI Enthusiast',
-    template: '%s | Anass El Hannaoui',
+    default: 'Taqieddine elmamouni ',
+    template: '%s | Taqi eddine El mamouni',
   },
   description: 'Computer science student passionate about Cloud, DevOps, and AI. Building skills through real projects in machine learning, scalable systems, and full-stack development.',
   keywords: [
@@ -30,23 +30,23 @@ export const metadata: Metadata = {
     'Kubernetes',
     'Spring Boot',
     'Next.js Portfolio',
-    'Anass El Hannaoui',
+    'Taqi eddine El mamouni',
   ],
-  authors: [{ name: 'Taqi eddine El mamouni', url: 'https://aelhannaoui-portfolio.vercel.app' }],
-  creator: 'Anass El Hannaoui',
+  authors: [{ name: 'Taqi eddine El mamouni', url: 'https://taqieddineelmamounicom.vercel.app/' }],
+  creator: 'Taqi eddine El mamouni',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://aelhannaoui-portfolio.vercel.app',
-    title: 'Anass El Hannaoui | Cloud & AI Engineer',
+    url: 'https://taqieddineelmamounicom.vercel.app',
+    title: 'Taqi eddine El mamouni ',
     description: 'Cloud & AI enthusiast exploring DevOps, scalable systems, and ML projects.',
-    siteName: 'Anass El Hannaoui',
+    siteName: 'Taqi eddine El mamouni',
     images: [
       {
         url: '/og-image.webp', // Assumes optimized image exists in /public
         width: 1200,
         height: 630,
-        alt: 'Anass El Hannaoui Portfolio',
+        alt: 'Taqi eddine El mamouni Portfolio',
         type: 'image/webp',
       },
     ],
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://aelhannaoui-portfolio.vercel.app', // Canonical URL for SEO
+    canonical: 'https://taqieddineelmamounicom.vercel.app', // Canonical URL for SEO
   },
 };
 
